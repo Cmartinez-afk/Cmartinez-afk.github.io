@@ -2,15 +2,15 @@ body {
     font-family: Fixedsys, monospace;
 }
 
-content {
+.content {
     background-color: rgb(189, 222, 185);
     font-size: 48px;
 }
-contact-info{
+.contact-info{
     background-color: #95c898;
 }
 
-navbar {
+.navbar{
     background-color: #95c898;
     font-size: 32px
 }
