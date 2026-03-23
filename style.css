@@ -1,7 +1,9 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(189, 222, 185);
     font-family: Fixedsys, monospace;
+    font-size: 48px;
 }
 navbar{
-    background-color: #b0ab9b;
+    background-color: #95c898;
+    font-size:32px
 }
