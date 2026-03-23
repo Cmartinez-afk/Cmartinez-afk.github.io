@@ -25,9 +25,9 @@ body {
 }
 .custome-toggler-icon{
     display: block;
-    width: 30px;
-    height: 30px;
-    background-image: url(LOGO.png);
+    width: 100%;
+    height: auto;
+    background-image: url(/LOGO.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
