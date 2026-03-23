@@ -3,17 +3,26 @@ body {
     background-color: #13301a;
 }
 
-.container {
-    margin: 50px auto;
+.content_container {
+    margin: 80px auto;
     padding: 50px;
     background-color: #c5ddc7;
     font-size: 24px;
     border-radius: 5%;
+    width: 90%;
+}
+
+.contact_container {
+    margin: 60px auto;
+    padding: 50px;
+    background-color: #88ab8b;
+    font-size: 24px;
+    border-radius: 5%;
+    width: 90%;
 }
 
 
 .contact-info {
-    background-color: #aadcae;
     align-items: center;
 }
 
@@ -25,6 +34,7 @@ body {
     width: 100%;
     height: auto;
     max-width: 100%;
+    padding: 10px;
 }
 
 .custome-toggler-icon {
@@ -42,4 +52,11 @@ h1 {
 
 .bio {
     text-align: center;
+}
+
+.text-border {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #13301a;
+    border-radius: 5%;
 }
