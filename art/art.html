@@ -4,7 +4,7 @@
     <meta charset='utf-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <title>Camryn Martinez</title>
-    <link rel ="icon" type="image/x-icon" href="/LOGO.png"> 
+    <link rel="icon" type="image/x-icon" href="/LOGO.png">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -12,6 +12,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/fixedsys-css/css/fixedsys.css">
 </head>
 
 <body>
@@ -36,7 +37,8 @@
                             Projects
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/programming/programming.html">Programming/Web Development</a></li>
+                            <li><a class="dropdown-item" href="/programming/programming.html">Programming/Web
+                                    Development</a></li>
                             <li><a class="dropdown-item" aria-current="page" href="#">Art</a></li>
                         </ul>
                     </li>
@@ -44,16 +46,30 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <h2>Rotoscopy Animation</h2>
-        <p>I was tasked with making a five-seven second rotoscopy animation. This was the first animation 
-            I had ever made so I learned a lot about frame rates, animation techniques, etc. </p>
-        <video controls>
-            <source src="Rotoscopy_1.mp4" type="video/mp4">
-        </video>
-        <h2>Fantasy Character Concept Art</h2>
-        <p>I was tasked with creating a concept art for a fantasy creature. This project was a great way 
-            of exploring digital art more. Doing research into different cultures to get inspiration from was very interesting.</p>
-        <img src="Fantasy_Character.png">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Rotoscopy Animation</h2>
+                    <p>I was tasked with making a five-seven second rotoscopy animation. This was the first animation
+                        I had ever made so I learned a lot about frame rates, animation techniques, etc. </p>
+                </div>
+                <div class="col-md-6">
+                    <video controls>
+                        <source src="Rotoscopy_1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-6">
+                    <img src="Fantasy_Character.png">
+                </div>
+                <div class="col-md-4">
+                    <h2>Fantasy Character Concept Art</h2>
+                    <p>I was tasked with creating a concept art for a fantasy creature. This project was a great way
+                        of exploring digital art more. Doing research into different cultures to get inspiration from
+                        was very
+                        interesting.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
