@@ -1,6 +1,7 @@
 body{
     background-color: rgb(255, 255, 255);
+    font-family: Fixedsys, monospace;
 }
 navbar{
-    background-color: antiquewhite;
+    background-color: #b0ab9b;
 }
