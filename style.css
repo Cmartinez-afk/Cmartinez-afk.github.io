@@ -1,33 +1,45 @@
 body {
     font-family: Fixedsys, monospace;
-    padding: 16px;
-    border: 4px;
-    border-color: #13301a;
+    background-color: #13301a;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #c5ddc7;
+    font-size: 24px;
+    border-radius: 5%;
+}
+
+
+.contact-info {
+    background-color: #aadcae;
     align-items: center;
 }
 
-.content {
-    background-color: rgb(204, 231, 201);
-    font-size: 24px;
-}
-.contact-info{
-    background-color: #aadcae;
+#navbar {
+    font-size: 32px
 }
 
-#navbar{
-    font-size: 32px
-    
-}
-.responsive-video{
+.responsive-video {
     width: 100%;
     height: auto;
     max-width: 100%;
 }
-.custome-toggler-icon{
+
+.custome-toggler-icon {
     display: block;
     width: 100%;
     height: auto;
-    background-image: url(/LOGO.png);
+    background-image: url(LOGO.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bio {
+    text-align: center;
 }
