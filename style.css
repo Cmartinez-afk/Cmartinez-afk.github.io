@@ -3,6 +3,7 @@ body {
     padding: 16px;
     border: 4px;
     border-color: #13301a;
+    align-items: center;
 }
 
 .content {
@@ -13,8 +14,9 @@ body {
     background-color: #aadcae;
 }
 
-.navbar{
+#navbar{
     font-size: 32px
+    
 }
 .responsive-video{
     width: 100%;
