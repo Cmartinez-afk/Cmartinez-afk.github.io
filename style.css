@@ -3,14 +3,13 @@ body {
 }
 
 .content {
-    background-color: rgb(189, 222, 185);
-    font-size: 48px;
+    background-color: rgb(204, 231, 201);
+    font-size: 24px;
 }
 .contact-info{
-    background-color: #95c898;
+    background-color: #aadcae;
 }
 
 .navbar{
-    background-color: #95c898;
     font-size: 32px
 }
