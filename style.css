@@ -1,9 +1,16 @@
-body{
-    background-color: rgb(189, 222, 185);
+body {
     font-family: Fixedsys, monospace;
+}
+
+content {
+    background-color: rgb(189, 222, 185);
     font-size: 48px;
 }
-navbar{
+contact-info{
     background-color: #95c898;
-    font-size:32px
+}
+
+navbar {
+    background-color: #95c898;
+    font-size: 32px
 }
