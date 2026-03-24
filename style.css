@@ -28,9 +28,10 @@ body {
 
 .navbar {
     font-size: 32px;
-    background-color: #13301a;
-    color:#c5ddc7;
-    position: relative;
+    position:relative;
+}
+.bg-custom{
+    background-color: #c5ddc7;
 }
 
 .navbar::after{
@@ -53,12 +54,12 @@ body {
     padding: 10px;
 }
 
-.custome-toggler-icon {
+.custom-toggler-icon {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 75px;
+    height: 75px;
     background-image: url("LOGO.png");
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
